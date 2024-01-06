@@ -8,6 +8,7 @@ requests = requests.get(url)
 content = requests.json()
 
 # print(content["articles"])
+
 #Printing the Content
 for article in content["articles"]:
     print(article["title"])
